@@ -1,0 +1,16 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "WEBSITE_SLOT_NAME": "Production",
+    "FUNCTIONS_EXTENSION_VERSION": "~3",
+    "WEBSITE_AUTH_ENABLED": "False",
+    "APPLICATIONINSIGHTS_CONNECTION_STRING": "InstrumentationKey=afb8a17b-12b7-4698-af33-cb277803385c",
+    "APPINSIGHTS_INSTRUMENTATIONKEY": "afb8a17b-12b7-4698-af33-cb277803385c",
+    "acprototypetest_DOCUMENTDB": "AccountEndpoint=https://acprototypetest.documents.azure.com:443/;AccountKey=O43KKor5avNZ1ZHfAs2V6fG9mB4JEAAi48uk5A6AGFvFcj8DCmTcEdO9H0uOyAnomfBk3T35JCsO83zTNGyIuQ==;",
+    "ScmType": "None",
+    "devicemanagerstorage_STORAGE": "DefaultEndpointsProtocol=https;AccountName=devicemanagerstorage;AccountKey=hwI4MCo+4GY0Bmh2E4TIVo5NncR7xRqCPiJPjej58b/+BWKNF4JR4XoHKQaSwKMJrSINBIr62aVUHixXiMLydA==",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "WEBSITE_SITE_NAME": "DeviceManagerServerless",
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=devicemanagerstorage;AccountKey=hwI4MCo+4GY0Bmh2E4TIVo5NncR7xRqCPiJPjej58b/+BWKNF4JR4XoHKQaSwKMJrSINBIr62aVUHixXiMLydA==;EndpointSuffix=core.windows.net"
+  }
+}

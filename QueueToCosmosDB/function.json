@@ -1,0 +1,21 @@
+﻿{
+  "bindings": [
+    {
+      "name": "myQueueItem",
+      "type": "queueTrigger",
+      "direction": "in",
+      "queueName": "devicequeue",
+      "connection": "devicemanagerstorage_STORAGE"
+    },
+    {
+      "type": "cosmosDB",
+      "name": "outputDocument",
+      "databaseName": "outDatabase",
+      "collectionName": "MyCollection",
+      "createIfNotExists": true,
+      "connectionStringSetting": "acprototypetest_DOCUMENTDB",
+      "direction": "out"
+    }
+  ],
+  "disabled": false
+}
